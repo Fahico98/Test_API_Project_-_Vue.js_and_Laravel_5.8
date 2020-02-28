@@ -1,0 +1,177 @@
+
+body {
+   background-color: #F0F0FF;
+}
+
+.bg-own-cyan {
+   background-color: #37709F;
+}
+
+/***** Text Color *****/
+
+.text-own-cyan {
+   color: #37709F !important;
+}
+
+a.text-own-cyan:hover,
+a.text-own-cyan:focus {
+  color: #000077 !important;
+}
+
+/***** From Control *****/
+
+.form-control:focus {
+   color: #495057;
+   background-color: #fff;
+   border-color: #5790bF;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgba(55, 112, 159, 0.25);
+}
+
+/***** Own Yellow Navbar *****/
+
+.navbar-own-yellow .navbar-brand {
+   color: rgba(255, 207, 63, 1);
+}
+
+.navbar-own-yellow .navbar-brand:hover,
+.navbar-own-yellow .navbar-brand:focus {
+   color: rgba(255, 207, 63, 1);
+}
+
+.navbar-own-yellow .navbar-nav .nav-link {
+   color: rgba(255, 207, 63, 1);
+}
+
+.navbar-own-yellow .navbar-nav .nav-link:hover,
+.navbar-own-yellow .navbar-nav .nav-link:focus {
+   color: rgba(255, 207, 63, 0.7);
+}
+
+.navbar-own-yellow .navbar-nav .nav-link.disabled {
+   color: rgba(255, 207, 63, 0.3);
+}
+
+.navbar-own-yellow .navbar-nav .show > .nav-link,
+.navbar-own-yellow .navbar-nav .active > .nav-link,
+.navbar-own-yellow .navbar-nav .nav-link.show,
+.navbar-own-yellow .navbar-nav .nav-link.active {
+   color: rgba(255, 207, 63, 0.9);
+}
+
+.navbar-own-yellow .navbar-toggler {
+   color: rgba(255, 207, 63, 0.5);
+   border-color: rgba(255, 207, 63, 0.1);
+}
+
+.navbar-own-yellow .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 207, 63, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-own-yellow .navbar-text {
+   color: rgba(255, 207, 63, 0.5);
+}
+
+.navbar-own-yellow .navbar-text a {
+   color: rgba(255, 207, 63, 0.9);
+}
+
+.navbar-own-yellow .navbar-text a:hover,
+.navbar-own-yellow .navbar-text a:focus {
+   color: rgba(255, 207, 63, 0.9);
+}
+
+/***** Button Border Radius *****/
+
+.btn{
+   border-radius: 0.5rem;
+}
+
+/***** Own Primary Button *****/
+
+.btn-own-yellow {
+   color: #000;
+   background-color: #FFCF3F;
+   border-color: #FFCF3F;
+}
+
+.btn-own-yellow:hover {
+   color: #000;
+   background-color: #FFBF2F;
+   border-color: #FFBF2F;
+}
+
+.btn-own-yellow:focus,
+.btn-own-yellow.focus {
+   color: #000;
+   background-color: #FFBF2F;
+   border-color: #FFBF2F;
+   box-shadow: 0 0 0 0.2rem rgba(255, 207, 63, 0.5);
+}
+
+.btn-own-yellow.disabled,
+.btn-own-yellow:disabled {
+   color: #000;
+   background-color: #FFCF3F;
+   border-color: #FFCF3F;
+}
+
+.btn-own-yellow:not(:disabled):not(.disabled):active,
+.btn-own-yellow:not(:disabled):not(.disabled).active,
+.show > .btn-own-yellow.dropdown-toggle {
+   color: #000;
+   background-color: #FFBF2F;
+   border-color: #FFBF2F;
+}
+
+.btn-own-yellow:not(:disabled):not(.disabled):active:focus,
+.btn-own-yellow:not(:disabled):not(.disabled).active:focus,
+.show > .btn-own-primary.dropdown-toggle:focus {
+   box-shadow: 0 0 0 0.2rem rgba(255, 207, 63, 0.5);
+}
+
+
+/***** Own Cyan Button *****/
+
+.btn-own-cyan {
+   color: #fff;
+   background-color: #37709F;
+   border-color: #37709F;
+}
+
+.btn-own-cyan:hover {
+   color: #fff;
+   background-color: #27609F;
+   border-color: #27609F;
+}
+
+.btn-own-cyan:focus,
+.btn-own-cyan.focus {
+   color: #fff;
+   background-color: #27609F;
+   border-color: #27609F;
+   box-shadow: 0 0 0 0.2rem rgba(55, 112, 159, 0.5);
+}
+
+.btn-own-cyan.disabled,
+.btn-own-cyan:disabled {
+   color: #fff;
+   background-color: #37709F;
+   border-color: #37709F;
+}
+
+.btn-own-cyan:not(:disabled):not(.disabled):active,
+.btn-own-cyan:not(:disabled):not(.disabled).active,
+.show > .btn-own-cyan.dropdown-toggle {
+   color: #fff;
+   background-color: #27609F;
+   border-color: #27609F;
+}
+
+.btn-own-cyan:not(:disabled):not(.disabled):active:focus,
+.btn-own-cyan:not(:disabled):not(.disabled).active:focus,
+.show > .btn-own-primary.dropdown-toggle:focus {
+   box-shadow: 0 0 0 0.2rem rgba(55, 112, 159, 0.5);
+}
+
+
